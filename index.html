@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ja">
   <head>
-    <title>活動予定</title>
+    <title>入曽ソフトボールリーグ</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,64 +9,67 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
+    <style>
+      .cover {
+        background: url(img/bg.png);
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-          <li class="breadcrumb-item">活動予定</li>
-        </ol>
-      </nav>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a href="" class="navbar-brand">menu</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="./schedule/schedule.html" class="nav-link">活動予定</a></li>
+              <li class="nav-item"><a href="./report/report.html" class="nav-link">対戦成績</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
     </header>
     <main>
-      <section class="text-center p-3">
-        <div class="container">
-          <table class="table table-bordered table-sm">
-            <thead>
-              <tr class="bg-wakaba"><th>日程</th><th>面</th><th>09:00 - 11:00</th><th>11:00 - 13:00</th></tr>
-            </thead>
-            <tbody>
-              <tr><td colspan="4" class="table-warning text-danger">Second round（7/6～11/9）</td></tr>
-              <tr><td rowspan=2>07/06(日)</td><td>Ａ</td><td>下水野<BR>三葉台<BR><font color="red">（中止）</font></td><td>松風<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>みよし<BR>東急台<BR><font color="red">（再戦）</font></td><td>九区<BR>グリ<BR><font color="red">（中止）</font></td></tr>
-              <tr><td rowspan=2>07/13(日)</td><td>Ａ</td><td>みよし<BR>三葉台<BR><font color="red">（中止）</font></td><td>下水野<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>松風<BR>グリ</td><td>東急台<BR>九区<BR><font color="red">（中止）</font></td></tr>
-              <tr><td colspan="4" class="table-warning text-danger">Summer vacation（7/20～8/31）</td></tr>
-              <tr><td colspan="4">7/20 ～ 8/31　B面　7:00-9:00　シニア</td></tr>
-              <tr><td rowspan=2>07/20(日)</td><td>Ａ</td><td><BR></td><td><BR></td></tr>
-              <tr><td>Ｂ</td><td><BR></td><td><BR></td></tr>
-              <tr><td rowspan=2>07/27(日)</td><td>Ａ</td><td><BR></td><td><BR></td></tr>
-              <tr><td>Ｂ</td><td>入曽スターズ</td><td><BR></td></tr>
-              <tr><td colspan="4" class="table-warning text-danger">Second round（7/6～11/9）</td></tr>
-              <tr><td rowspan=2>09/07(日)</td><td>Ａ</td><td>三葉台<BR>松風<BR><font color="red">（中止）</font></td><td>東急台<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>下水野<BR>九区</td><td>みよし<BR>グリ</td></tr>
-              <tr><td rowspan=2>09/14(日)</td><td>Ａ</td><td>みよし<BR>九区<BR><font color="red">中止</font></td><td>三葉台<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>東急台<BR>グリ</td><td>下水野<BR>松風<BR><font color="red">（中止）</font></td></tr>
-              <tr><td rowspan=2>09/21(日)</td><td>Ａ</td><td>下水野<BR>東急台<BR><font color="red">（中止）</font></td><td>九区<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>東急台<BR><font color="red">（練習）</font></td><td>三葉台<BR>グリ</td></tr>
-              <tr><td rowspan=2>09/28(日)</td><td>Ａ</td><td>九区<BR>松風</td><td></td></tr>
-              <tr><td>Ｂ</td><td><font color="red">下水野<BR>三葉台</font></td><td></td></tr>
-              <tr><td rowspan=2>10/05(日)</td><td>Ａ</td><td><font color="red">下水野<BR>グリ</font></td><td>みよし<BR><font color="red">（練習）</font></td></tr>
-              <tr><td>Ｂ</td><td>三葉台<BR>九区</td><td>東急台<BR>松風</td></tr>
-              <tr><td rowspan=2>10/12(日)</td><td>Ａ</td><td><font color="red">三葉台<BR>松風</font></td><td></td></tr>
-              <tr><td>Ｂ</td><td></td><td></td></tr>
-              <tr><td rowspan=2>10/19(日)</td><td>Ａ</td><td>下水野<BR>松風</td><td></td></tr>
-              <tr><td>Ｂ</td><td>みよし<BR>三葉台</td><td>東急台<BR>九区</td></tr>
-              <tr><td rowspan=2>10/26(日)</td><td>Ａ</td><td><font color="red">東急台<BR>三葉台</font></td><td><BR></td></tr>
-              <tr><td>Ｂ</td><td><font color="red">九区<BR>グリ</font></td><td>みよし<BR>下水野</td></tr>
-              <tr><td>11/02(日)</td><td colspan="4"><font color="red">チャレンジ</font></td></tr>
-              <tr><td rowspan=2>11/09(日)</td><td>Ａ</td><td><font color="red">下水野<BR>東急台</font></td><td><BR></td></tr>
-              <tr><td>Ｂ</td><td><font color="red">みよし<BR>松風</font></td><td><BR></td></tr>
-              <tr><td rowspan=2>11/16(日)</td><td>Ａ</td><td></td><td><BR></td></tr>
-              <tr><td>Ｂ</td><td><font color="red">みよし<BR>東急台</font></td><td><BR></td></tr>
-              </tbody>
-          </table>
-        </div>
-    </section>
-    </main>
+        <section class="bg-light text-center">
+            <div class="container">
+              <table class="table table-hover">
+                <thead>
+                  <tr><th>更新日</th><th>内容</th></tr>
+                </thead>
+                <tbody>
+                  <tr class=""><td>2025.09.22</td><td class="text-left"><a href="./report/report.html">9/21試合結果反映</a></td></tr>
+                  <tr class=""><td>2025.09.20</td><td class="text-left"><a href="./schedule/schedule.html">中止予定調整</a></td></tr>
+                  <tr class=""><td>2025.09.15</td><td class="text-left"><a href="./report/report.html">9/14試合結果反映</a><BR><a href="./schedule/schedule.html">中止予定調整</a></td></tr>
+                  <tr class=""><td>2025.09.12</td><td class="text-left"><a href="./report/report.html">9/4試合結果反映</a><BR><a href="./schedule/schedule.html">中止予定調整</a></td></tr>
+                  <tr class=""><td>2025.09.03</td><td class="text-left"><a href="./schedule/schedule.html">9/7の中止予定を調整</a></td></tr>
+                  <tr class=""><td>2025.07.13</td><td class="text-left"><a href="./report/report.html">7/13試合結果反映</a></td></tr>
+                  <tr class=""><td>2025.07.07</td><td class="text-left"><a href="./schedule/schedule.html">再戦予定調整</a></td></tr>
+                  <tr class=""><td>2025.07.01</td><td class="text-left"><a href="./schedule/schedule.html">中止予定調整</a></td></tr>
+                  <tr class=""><td>2025.06.30</td><td class="text-left"><a href="./report/report.html">6/29試合結果反映</a><BR><a href="./schedule/schedule.html">中止予定調整</a></td></tr>
+                  <tr class=""><td>2025.06.24</td><td class="text-left"><a href="./report/report.html">6/22試合結果反映</a><BR><a href="./schedule/schedule.html">6/29,7/27に予定追加</a></td></tr>
+                  <tr class=""><td>2025.06.16</td><td class="text-left"><a href="./report/report.html">6/15試合結果反映</a><BR><a href="./schedule/schedule.html">6/15の中止予定を6/29に移動</a></td></tr>
+                  <tr class=""><td>2025.06.09</td><td class="text-left"><a href="./report/report.html">6/8試合結果反映</a></td></tr>
+                  <tr class=""><td>2025.06.02</td><td class="text-left"><a href="./report/report.html">6/1試合結果反映</a><BR><a href="./schedule/schedule.html">6/1の中止予定を6/29に移動</a></td></tr>
+                  <tr class=""><td>2025.05.25</td><td class="text-left"><a href="./report/report.html">5/25試合結果反映</a><BR><a href="./schedule/schedule.html">5/25の中止予定を6/22に移動</a></td></tr>
+                  <tr class=""><td>2025.05.12</td><td class="text-left"><a href="./report/report.html">5/11試合結果反映</a></td></tr>
+                  <tr class=""><td>2025.04.28</td><td class="text-left"><a href="./report/report.html">4/27試合結果反映</a></td></tr>
+                  <tr class=""><td>2025.04.20</td><td class="text-left"><a href="./report/report.html">4/20試合結果反映</a><br><a href="./schedule/schedule.html">4/27の九区vsみよしを6/1に移動</a></td></tr>
+                  <tr class=""><td>2025.04.13</td><td class="text-left"><a href="./schedule/schedule.html">4/13の予定を6/15に移動</a></td></tr>
+                  <tr class=""><td>2025.04.06</td><td class="text-left"><a href="./schedule/schedule.html">5/4の予定を6/1に移動</a><br><a href="./report/report.html">4/6試合反映</a></td></tr>
+                  <tr class=""><td>2025.03.09</td><td class="text-left"><a href="./schedule/schedule.html">2025年度リーグ予定反映</a></td></tr>
+                  <tr class=""><td>2025.02.15</td><td class="text-left"><a href="./schedule/schedule.html">3月の予定反映</a></td></tr>
+                  <tr class=""><td>2024.11.23</td><td class="text-left"><a href="./schedule/schedule.html">シーズン予定削除<br>冬季連取予定追加</a></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
     <footer class="text-center text-muted py-4">
     </footer>
 
