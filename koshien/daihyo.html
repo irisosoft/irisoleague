@@ -1,0 +1,207 @@
+
+
+
+
+
+オファーを受け取る
+以下の表をスマホで見えるHMLにして
+
+地方大会	代表校	出場回数
+北北海道	白樺学園	2年ぶり5回目
+南北海道	札幌日大	2年ぶり2回目
+青森	青森山田	2年ぶり13回目
+岩手	花巻東	４年連続14回目
+秋田	横手	57年ぶり2回目
+山形		
+宮城		
+福島	東日大昌平	初出場
+茨城	霞ケ浦	２年ぶり４回目
+栃木	佐野日大	16年ぶり７回目
+群馬	健大高崎	３年連続６回目
+埼玉	花咲徳栄	２年ぶり９回目
+山梨	東海大甲府	３年ぶり15回目
+千葉	拓大紅陵	24年ぶり６回目
+東東京		
+西東京	八王子実践	初出場
+神奈川	横浜	２年連続22回目
+長野	松商学園	２年連続39回目
+新潟	日本文理	４年ぶり13回目
+富山	高岡商	４年ぶり23回目
+石川	遊学館	11年ぶり７回目
+福井	敦賀気比	２年連続13回目
+静岡		
+愛知		
+岐阜		
+三重		
+滋賀	八幡商	15年ぶり８回目
+京都		
+奈良		
+和歌山		
+大阪		
+兵庫	社	３年ぶり３回目
+岡山		
+鳥取	鳥取城北	３年連続８回目
+広島		
+島根	立正大淞南	３年ぶり４回目
+山口		
+香川	英明	２年ぶり５回目
+愛媛	新田	５年ぶり２回目
+徳島		
+高知	明徳義塾	２年ぶり24回目
+福岡	東筑	９年ぶり７回目
+佐賀	佐賀商	8年ぶり17回目
+長崎	長崎日大	16年ぶり10回目
+熊本	有明	初出場
+大分	大分商	13年ぶり16回目
+宮崎	日南学園	8年ぶり10回目
+鹿児島	神村学園	４年連続９回目
+沖縄	沖縄尚学	2年連続12回目
+
+以下はスマホで見やすいカード形式のHTMLです。1地区ごとに表示されるので、縦スクロールで見やすくなっています。
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高校野球代表校一覧</title>
+<style>
+body{
+    font-family: sans-serif;
+    background:#f5f5f5;
+    margin:0;
+    padding:10px;
+}
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+}
+.area{
+    font-size:18px;
+    font-weight:bold;
+    color:#1565c0;
+    margin-bottom:8px;
+}
+.item{
+    display:flex;
+    margin:4px 0;
+}
+.label{
+    width:70px;
+    font-weight:bold;
+    color:#666;
+}
+.value{
+    flex:1;
+}
+.empty{
+    color:#999;
+}
+</style>
+</head>
+<body>
+
+<div class="card"><div class="area">北北海道</div><div class="item"><div class="label">代表校</div><div class="value">白樺学園</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり5回目</div></div></div>
+
+<div class="card"><div class="area">南北海道</div><div class="item"><div class="label">代表校</div><div class="value">札幌日大</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり2回目</div></div></div>
+
+<div class="card"><div class="area">青森</div><div class="item"><div class="label">代表校</div><div class="value">青森山田</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり13回目</div></div></div>
+
+<div class="card"><div class="area">岩手</div><div class="item"><div class="label">代表校</div><div class="value">花巻東</div></div><div class="item"><div class="label">出場</div><div class="value">4年連続14回目</div></div></div>
+
+<div class="card"><div class="area">秋田</div><div class="item"><div class="label">代表校</div><div class="value">横手</div></div><div class="item"><div class="label">出場</div><div class="value">57年ぶり2回目</div></div></div>
+
+<div class="card"><div class="area">山形</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">宮城</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">福島</div><div class="item"><div class="label">代表校</div><div class="value">東日大昌平</div></div><div class="item"><div class="label">出場</div><div class="value">初出場</div></div></div>
+
+<div class="card"><div class="area">茨城</div><div class="item"><div class="label">代表校</div><div class="value">霞ケ浦</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり4回目</div></div></div>
+
+<div class="card"><div class="area">栃木</div><div class="item"><div class="label">代表校</div><div class="value">佐野日大</div></div><div class="item"><div class="label">出場</div><div class="value">16年ぶり7回目</div></div></div>
+
+<div class="card"><div class="area">群馬</div><div class="item"><div class="label">代表校</div><div class="value">健大高崎</div></div><div class="item"><div class="label">出場</div><div class="value">3年連続6回目</div></div></div>
+
+<div class="card"><div class="area">埼玉</div><div class="item"><div class="label">代表校</div><div class="value">花咲徳栄</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり9回目</div></div></div>
+
+<div class="card"><div class="area">山梨</div><div class="item"><div class="label">代表校</div><div class="value">東海大甲府</div></div><div class="item"><div class="label">出場</div><div class="value">3年ぶり15回目</div></div></div>
+
+<div class="card"><div class="area">千葉</div><div class="item"><div class="label">代表校</div><div class="value">拓大紅陵</div></div><div class="item"><div class="label">出場</div><div class="value">24年ぶり6回目</div></div></div>
+
+<div class="card"><div class="area">東東京</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">西東京</div><div class="item"><div class="label">代表校</div><div class="value">八王子実践</div></div><div class="item"><div class="label">出場</div><div class="value">初出場</div></div></div>
+
+<div class="card"><div class="area">神奈川</div><div class="item"><div class="label">代表校</div><div class="value">横浜</div></div><div class="item"><div class="label">出場</div><div class="value">2年連続22回目</div></div></div>
+
+<div class="card"><div class="area">長野</div><div class="item"><div class="label">代表校</div><div class="value">松商学園</div></div><div class="item"><div class="label">出場</div><div class="value">2年連続39回目</div></div></div>
+
+<div class="card"><div class="area">新潟</div><div class="item"><div class="label">代表校</div><div class="value">日本文理</div></div><div class="item"><div class="label">出場</div><div class="value">4年ぶり13回目</div></div></div>
+
+<div class="card"><div class="area">富山</div><div class="item"><div class="label">代表校</div><div class="value">高岡商</div></div><div class="item"><div class="label">出場</div><div class="value">4年ぶり23回目</div></div></div>
+
+<div class="card"><div class="area">石川</div><div class="item"><div class="label">代表校</div><div class="value">遊学館</div></div><div class="item"><div class="label">出場</div><div class="value">11年ぶり7回目</div></div></div>
+
+<div class="card"><div class="area">福井</div><div class="item"><div class="label">代表校</div><div class="value">敦賀気比</div></div><div class="item"><div class="label">出場</div><div class="value">2年連続13回目</div></div></div>
+
+<div class="card"><div class="area">静岡</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">愛知</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">岐阜</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">三重</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">滋賀</div><div class="item"><div class="label">代表校</div><div class="value">八幡商</div></div><div class="item"><div class="label">出場</div><div class="value">15年ぶり8回目</div></div></div>
+
+<div class="card"><div class="area">京都</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">奈良</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">和歌山</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+<div class="card"><div class="area">大阪</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">兵庫</div><div class="item"><div class="label">代表校</div><div class="value">社</div></div><div class="item"><div class="label">出場</div><div class="value">3年ぶり3回目</div></div></div>
+
+<div class="card"><div class="area">岡山</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">鳥取</div><div class="item"><div class="label">代表校</div><div class="value">鳥取城北</div></div><div class="item"><div class="label">出場</div><div class="value">3年連続8回目</div></div></div>
+
+<div class="card"><div class="area">広島</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">島根</div><div class="item"><div class="label">代表校</div><div class="value">立正大淞南</div></div><div class="item"><div class="label">出場</div><div class="value">3年ぶり4回目</div></div></div>
+
+<div class="card"><div class="area">山口</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">香川</div><div class="item"><div class="label">代表校</div><div class="value">英明</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり5回目</div></div></div>
+
+<div class="card"><div class="area">愛媛</div><div class="item"><div class="label">代表校</div><div class="value">新田</div></div><div class="item"><div class="label">出場</div><div class="value">5年ぶり2回目</div></div></div>
+
+<div class="card"><div class="area">徳島</div><div class="item"><div class="label">代表校</div><div class="value empty">未定</div></div></div>
+
+<div class="card"><div class="area">高知</div><div class="item"><div class="label">代表校</div><div class="value">明徳義塾</div></div><div class="item"><div class="label">出場</div><div class="value">2年ぶり24回目</div></div></div>
+
+<div class="card"><div class="area">福岡</div><div class="item"><div class="label">代表校</div><div class="value">東筑</div></div><div class="item"><div class="label">出場</div><div class="value">9年ぶり7回目</div></div></div>
+
+<div class="card"><div class="area">佐賀</div><div class="item"><div class="label">代表校</div><div class="value">佐賀商</div></div><div class="item"><div class="label">出場</div><div class="value">8年ぶり17回目</div></div></div>
+
+<div class="card"><div class="area">長崎</div><div class="item"><div class="label">代表校</div><div class="value">長崎日大</div></div><div class="item"><div class="label">出場</div><div class="value">16年ぶり10回目</div></div></div>
+
+<div class="card"><div class="area">熊本</div><div class="item"><div class="label">代表校</div><div class="value">有明</div></div><div class="item"><div class="label">出場</div><div class="value">初出場</div></div></div>
+
+<div class="card"><div class="area">大分</div><div class="item"><div class="label">代表校</div><div class="value">大分商</div></div><div class="item"><div class="label">出場</div><div class="value">13年ぶり16回目</div></div></div>
+
+<div class="card"><div class="area">宮崎</div><div class="item"><div class="label">代表校</div><div class="value">日南学園</div></div><div class="item"><div class="label">出場</div><div class="value">8年ぶり10回目</div></div></div>
+
+<div class="card"><div class="area">鹿児島</div><div class="item"><div class="label">代表校</div><div class="value">神村学園</div></div><div class="item"><div class="label">出場</div><div class="value">4年連続9回目</div></div></div>
+
+<div class="card"><div class="area">沖縄</div><div class="item"><div class="label">代表校</div><div class="value">沖縄尚学</div></div><div class="item"><div class="label">出場</div><div class="value">2年連続12回目</div></div></div>
+
+</body>
+</html>
+このHTMLはスマホ表示に最適化されており、1地区＝1カードで見やすくなっています。代表校が未定の地区は「未定」とグレー表示されます。
+
+
+
+
+広告
+
